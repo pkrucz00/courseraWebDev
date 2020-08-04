@@ -4,7 +4,8 @@
 }
 h1 {
     text-align: center;
-  margin-bottom: 15px;
+    font-size: 1.75em;
+    margin-bottom: 25px;
 }
 
 section {
@@ -16,26 +17,48 @@ section {
     margin-bottom: 10%;
     padding: 10px 10px 10px 10px;
 
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: lightgrey;
+}
+
+/* for tablet - lines align better */
+.col-md-12 > section {
+    width: 95%;
+    left: 2.5%;
+}
+
+.clearedText {
+    clear: right;
 }
 
 .titleOfSection {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
     position: relative;
-    left: 66.7%;
-    width: 33.3%;
-    height: 33.3%;
+    float: right;
+    width: 100px;
+    height: 45px;
     padding: 10px 10px 10px 10px;
     margin-top: -10px;
-
-
+    margin-right: -10px;
 
     text-align: center;
     font-size: 1.25em;
+    font-weight: bold;
+}
 
+#nr1 {
+    background-color: blanchedalmond;
+}
 
+#nr2 {
+    background-color: lemonchiffon;
+}
+
+#nr3 {
+    background-color: oldlace;
 }
 
 /* Simple Responsive Framework. */
