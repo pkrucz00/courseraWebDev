@@ -1,0 +1,35 @@
+.navbar-default{
+    background-color: gainsboro;
+}
+
+.navbar-default .navbar-brand {
+    color: #61367d;
+}
+
+.navbar-default .navbar-brand a:hover {
+    color: #9a43b7;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #61367d;
+    margin: 0px 5px 0px 5px;
+}
+
+.head-style {
+    color: #9a43b7;
+    font-weight: bold;
+    font-family: "Arial"
+}
+
+.main-tile {
+    background-color: gainsboro;
+}
+
+.subheader {
+    color: #61367d;
+}
+
+.prod-desc {
+    color: #88359c;
+    font-size: 1.25em;
+}
